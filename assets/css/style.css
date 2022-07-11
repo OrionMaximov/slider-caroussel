@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+#slider{
+    position: relative;
+}
+#prev{
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    left:0;
+    top: 50%;    
+}
+#next{
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    right: 0;
+    top: 50%;
+}
+#prev:hover, #next:hover{
+    cursor: pointer;
+}
